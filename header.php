@@ -15,16 +15,26 @@
 
 <header>
   <div class="container">
-    <h1>
-      <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
-      </a>
-    </h1>
 
-    <?php wp_nav_menu( array(
-      'container' => false,
-      'theme_location' => 'primary'
-    )); ?>
-  </div> <!-- /.container -->
+  <div class="toggle-btn">
+     <div class="toggle-bar"></div>
+   </div> 
+   
+<!--     <div class="headerLogoDetails">
+      <h2 id="home">
+        <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
+        <?php the_field('logo'); ?>
+        </a>
+      </h2>
+      <h3><?php the_field('header_tagline') ?></h3>
+    </div> -->
+
+<!--     <div class="mainNav">
+      <?php wp_nav_menu( array(
+          'container' => false,
+          'theme_location' => 'primary'
+        )); ?>
+      </div>
+ -->  </div> <!-- /.container -->
 </header><!--/.header-->
 

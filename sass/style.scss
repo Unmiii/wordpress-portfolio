@@ -5,13 +5,21 @@
 * Version: 1.0
 * Author: HackerYou
 * Author URI: http://hackeryou.com
+
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css">
 */
 
 @import 'normalize';
 @import 'typography';
 @import 'navigation';
+@import 'header';
 @import 'sidebar';
-@import 'comments';
+// @import 'comments';
+@import 'about';
+@import 'work'; 
+@import 'contact';
 @import 'footer';
 /*
 ====================================
@@ -27,8 +35,13 @@ body {
 	color: #333;
 }
 
+.pageWrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
 .container {
-	max-width: 1200px;
+	max-width: 1366px;
 	margin: 0 auto;
 }
 
@@ -41,6 +54,75 @@ body {
 .full {
 	width: 100%;
 }
+
+h1, h2, h3 {
+	font-family: 'Nixie One';
+}
+
+h1 {
+	font-size: 4.7rem;
+}
+
+h2 {
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+p {
+	font-size: 1.1rem;
+}
+
+.main {
+	position: relative;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.hero {
+	height: 100vh;
+	background: no-repeat fixed;
+	background-position: 50% 57%;
+	background-size: cover;
+}
+
+.hero img {
+	// position: fixed;
+	// width: 100%;
+	// margin: 0;
+	// z-index: -1;
+	// top: 0;
+	// height: 100vh;
+}
+
+ul.menu {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	position: fixed;
+	top: 30%;
+	right: 0;
+	li {
+		padding: 10px;
+	}
+	a {
+		background: none;
+		// color: black
+	}
+}
+
+.containerWrapper h1 {
+	position: absolute;
+	top: 5%;
+	left: 20%;
+}
+
+
 
 
 

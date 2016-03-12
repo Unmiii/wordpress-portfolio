@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+    <p><?php the_field('footer_tagline'); ?></p>
   </div>
 </footer>
 

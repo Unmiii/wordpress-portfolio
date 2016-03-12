@@ -1,0 +1,53 @@
+header .container {
+	width: 100%;
+	display: flex;
+	// justify-content: space-around;
+	margin: 0;
+}
+
+.headerLogoDetails {
+	// width: 60%;
+	display: flex;
+	// justify-content: space-around;
+	align-items: center;
+	h2 {
+		font-size: 3rem;
+		margin: 0;
+	}
+	h3 {
+		color: whitesmoke;
+		padding: 16px;
+	}
+}
+
+ul.menu {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	position: fixed;
+	li {
+		padding: 10px;
+	}
+	a {
+		background: none;
+		// color: black
+	}
+}
+
+// .mainNav {
+// 	display: flex;
+// 	align-items: center;
+// 	// padding-left: 30px;
+// 	// position: fixed;
+// 	// width: 40%;
+// 	 ul {
+// 	 	width: 100%;
+// 	 	display: flex;
+// 	 	justify-content: flex-end;
+// 		li {
+// 			a {
+// 			background: none;
+// 			}
+// 		}
+// 	}
+// }
